@@ -1,0 +1,19 @@
+{
+  "name": "che-ssh-tool",
+  "version": "0.0.1",
+  "description": "SSH key manage tool for Eclipse Che.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikoto2000/che-ssh-tool.git"
+  },
+  "author": "mikoto2000",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikoto2000/che-ssh-tool/issues"
+  },
+  "homepage": "https://github.com/mikoto2000/che-ssh-tool#readme"
+}
