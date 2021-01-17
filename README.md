@@ -13,9 +13,20 @@ Eclipse Che の SSH 鍵を管理するツール。
 che-ssh-tool generate KEY_NAME
 ```
 
-### キー情報確認
+### キーペア削除
+
+```sh
+che-ssh-tool delete KEY_NAME
+```
+
+### キー一覧表示
 
 ```sh
 che-ssh-tool list
 ```
 
+### キー情報表示
+
+```sh
+che-ssh-tool show KEY_NAME
+```
