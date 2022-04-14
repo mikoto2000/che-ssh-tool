@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { program } from 'commander';
 
 import WorkspaceClient, { IRemoteAPI, IRestAPIConfig } from '@eclipse-che/workspace-client';
