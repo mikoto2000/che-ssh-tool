@@ -1,6 +1,6 @@
 {
   "name": "che-ssh-tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SSH key manage tool for Eclipse Che.",
   "preferGlobal": true,
   "bin": {

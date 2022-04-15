@@ -1,11 +1,12 @@
 #!/usr/bin/env node
-import { program } from 'commander';
+import { Command } from 'commander';
+const program = new Command();
 
 import WorkspaceClient, { IRemoteAPI, IRestAPIConfig } from '@eclipse-che/workspace-client';
 
 const CHE_SSH_SERVICE_NAME = 'vcs';
 
-program.version('0.0.1');
+program.version('1.0.2');
 
 program
   .command('generate <keyName>')
